@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f92aef63d6f25cb43be0057a0e3721c9, type: 3}
+  m_Name: GameManager
+  m_EditorClassIdentifier: 
+  friendlyFire: 0
+  playerOpenFireDelay: 0.4
+  playerInitHealth: 100
+  playerBulletPrefab: {fileID: 1563439610670209814, guid: af6ef81818667ef46b3030e0bf6d8b0c,
+    type: 3}
+  playerBulletSpeed: 10
+  playerBulletDamage: 100
+  playerBulletLifeTime: 2
+  playerBulletWaveCount: 2
+  playerFireCoolDown: 0.07
+  enemyInitHealth: 100
+  enemyBulletPrefab: {fileID: 1563439610670209814, guid: 9cbbaffb428e89d4594e61f047070ea5,
+    type: 3}
+  enemyBulletSpeed: 3
+  enemyBulletDamage: 20
+  enemyBulletLifeTime: 3
+  enemyFireCoolDown: 3
+  enemyComeInSpeed: 7
+  enemyComeInPath:
+  - {x: -8, y: -3, z: 0}
+  - {x: 3.5, y: -3, z: 0}
+  - {x: 5.5, y: -1.5, z: 0}
+  enemySpawnCoolDown: 0.15
+  waveSpawnCoolDown: 100000000
+  enemyWaveMoveSpeed: 3
+  enemyPrefab: {fileID: 4411494117405774247, guid: 7326d7b263d1f8a4ea0e2c625f15bc4e,
+    type: 3}
+  enemyWavePrefab: {fileID: 3407224764469811313, guid: 7d6fd3ba1b253894a988718a9165ef11,
+    type: 3}
